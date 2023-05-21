@@ -21,7 +21,7 @@ function App() {
         <h3>INTEGRANTES</h3>
 
         <h4>Alonso Bohorquez Corredor</h4>
-        <h4>Cristian Lozano</h4>
+        <h4>Cristian David Lozano</h4>
 
 
         <h6>Enlace del proyecto</h6>
