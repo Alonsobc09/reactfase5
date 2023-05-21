@@ -1,0 +1,59 @@
+
+.contenedor{
+
+    display: grid;
+    grid-template-areas: 
+         'A A A A'
+         'B B B B'
+         'C C D D'
+         'E E E E';   
+}
+header{
+grid-area: A;
+background-color: #A5F1E9;
+display: flex;
+        justify-content: space-around;
+        background-color:#A5F1E9;
+}
+nav{
+grid-area: B;
+background-color: #7FBCD2; 
+justify-content: space-around;
+}
+.menu-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    list-style: none;
+}
+.menu-horizontal A {
+    background-color: #7FBCD2;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 4px;
+}
+.menu-vertical{
+    list-style: none;
+}
+.menu-vertical a {
+    background-color: #7FBCD2;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    margin: 3px;
+    display: block;
+}   
+
+aside{
+grid-area: C;
+background-color: #E1FFEE;
+}
+main{
+grid-area: D;
+background-color: #E1FFEE;
+}
+footer{
+grid-area: E;
+background-color: #A5F1E9;
+}
